@@ -57,13 +57,13 @@ Please see the [license file](license.md) for more information.
 [ico-version]: https://img.shields.io/packagist/v/andalisolutions/laravel-bnr.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/andalisolutions/laravel-bnr.svg?style=flat-square
 [ico-build]: https://github.com/andalisolutions/laravel-bnr/workflows/tests/badge.svg
-[ico-styleci]: https://styleci.io/repos/244713925/shield
+[ico-styleci]: https://styleci.io/repos/253283210/shield
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/g/andalisolutions/laravel-bnr.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/andalisolutions/laravel-bnr
 [link-downloads]: https://packagist.org/packages/andalisolutions/laravel-bnr
 [link-build]: https://github.com/andalisolutions/laravel-bnr/actions
-[link-styleci]: https://styleci.io/repos/245011612
+[link-styleci]: https://styleci.io/repos/253283210
 [link-scrutinizer]: https://scrutinizer-ci.com/g/andalisolutions/laravel-bnr
 [link-author]: https://github.com/andalisolutions
 [link-contributors]: ../../contributors
