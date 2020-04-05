@@ -1,6 +1,6 @@
 {
     "name": "andalisolutions/laravel-bnr",
-    "description": "Web service for verifying taxpayers who are registered according to art. 316 of the Romanian Fiscal Code",
+    "description": "Web Service to retrieve the exchange rate NBR",
     "license": "MIT",
     "authors": [
         {
