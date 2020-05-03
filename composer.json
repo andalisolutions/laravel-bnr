@@ -42,5 +42,10 @@
                 "Bnr": "Andali\\Bnr\\Facades\\Bnr"
             }
         }
+    },
+    "scripts" : {
+        "format": [
+            "vendor/bin/php-cs-fixer fix"
+        ]
     }
 }
