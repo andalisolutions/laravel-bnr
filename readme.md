@@ -3,7 +3,7 @@ Web Service to retrieve the exchange rate NBR
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Build Status][ico-build]][link-build]
-[![Code Style](https://github.com/andalisolutions/laravel-bnr/workflows/Code%20Style/badge.svg)](https://github.com/laravelio/laravel.io/actions?query=workflow%3A%22Code+Style%22)
+[![Code Style](https://github.com/andalisolutions/laravel-bnr/workflows/Code%20Style/badge.svg)](https://github.com/andalisolutions/laravel-bnr/actions?query=workflow%3A%22Code+Style%22)
 
 [![Quality Score][ico-scrutinizer]][link-scrutinizer]
 [![Total Downloads][ico-downloads]][link-downloads]
