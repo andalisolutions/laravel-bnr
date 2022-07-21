@@ -5,20 +5,17 @@ namespace Andali\Bnr\Tests;
 use Andali\Bnr\BnrServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
-abstract class TestCase extends Orchestra
+class TestCase extends Orchestra
 {
-    public function setUp(): void
+    protected function setUp(): void
     {
         parent::setUp();
     }
 
-    public function tearDown(): void
-    {
-        parent::tearDown();
-    }
-
     protected function getPackageProviders($app)
     {
-        return BnrServiceProvider::class;
+        return [
+            BnrServiceProvider::class,
+        ];
     }
 }

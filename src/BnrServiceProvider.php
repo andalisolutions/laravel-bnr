@@ -2,12 +2,14 @@
 
 namespace Andali\Bnr;
 
-use Illuminate\Support\ServiceProvider;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class BnrServiceProvider extends ServiceProvider
+class BnrServiceProvider extends PackageServiceProvider
 {
-    public function register(): void
+    public function configurePackage(Package $package): void
     {
-        $this->app->singleton('bnr', fn ($app) => new Bnr);
+        $package
+            ->name('laravel-bnr');
     }
 }

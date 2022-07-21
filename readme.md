@@ -1,70 +1,55 @@
 # Laravel BNR exchange rate
-Web Service to retrieve the exchange rate NBR
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Build Status][ico-build]][link-build]
-[![Code Style](https://github.com/andalisolutions/laravel-bnr/workflows/Code%20Style/badge.svg)](https://github.com/andalisolutions/laravel-bnr/actions?query=workflow%3A%22Code+Style%22)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/andalisolutions/laravel-bnr.svg?style=flat-square)](https://packagist.org/packages/andalisolutions/laravel-bnr)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/andalisolutions/laravel-bnr/run-tests?label=tests)](https://github.com/andalisolutions/laravel-bnr/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/andalisolutions/laravel-bnr/Check%20&%20fix%20styling?label=code%20style)](https://github.com/andalisolutions/laravel-bnr/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/andalisolutions/laravel-bnr.svg?style=flat-square)](https://packagist.org/packages/andalisolutions/laravel-bnr)
 
-[![Quality Score][ico-scrutinizer]][link-scrutinizer]
-[![Total Downloads][ico-downloads]][link-downloads]
+
 ## Installation
 
-Via Composer
+You can install the package via composer:
 
-``` bash
-$ composer require andalisolutions/laravel-bnr
+```bash
+composer require andalisolutions/laravel-bnr
 ```
 
 ## Usage
-```php
-use Andali\Bnr\Facades\Bnr;
 
-$nbrEUR = Bnr::exchange('EUR', '2020-03-04');
-or
-$nbrEUR = Bnr::exchange('EUR');
+The exchange value is in RON.
+```php
+use Andali\Bnr\Bnr;
+
+
+BNR::exchange('EUR')->today();
+/* OR */
+BNR::exchange('EUR')->in('2022-07-20')
+
 ```
-Response
-```
-4.8057
+
+## Testing
+
+```bash
+composer test
 ```
 
 ## Changelog
 
-Please see the [changelog](changelog.md) for more information on what has changed recently.
-
-## Testing
-
-``` bash
-./vendor/bin/phpunit test
-```
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
 ## Contributing
 
-Please see [contributing.md](contributing.md) for details and a todolist.
+Please see [CONTRIBUTING](https://github.com/andalisolutions/.github/blob/main/CONTRIBUTING.md) for details.
 
-## Security
+## Security Vulnerabilities
 
-If you discover any security related issues, please email <andrei.ciungulete@andali.ro> instead of using the issue tracker.
+Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
 
 ## Credits
 
-- [Andrei Ciungulete][link-author]
-- [All Contributors][link-contributors]
+- [Andrei Ciungulete](https://github.com/ciungulete)
+- [All Contributors](../../contributors)
 
 ## License
 
-Please see the [license file](license.md) for more information.
-
-[ico-version]: https://img.shields.io/packagist/v/andalisolutions/laravel-bnr.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/andalisolutions/laravel-bnr.svg?style=flat-square
-[ico-build]: https://github.com/andalisolutions/laravel-bnr/workflows/tests/badge.svg
-[ico-styleci]: https://styleci.io/repos/253283210/shield
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/g/andalisolutions/laravel-bnr.svg?style=flat-square
-
-[link-packagist]: https://packagist.org/packages/andalisolutions/laravel-bnr
-[link-downloads]: https://packagist.org/packages/andalisolutions/laravel-bnr
-[link-build]: https://github.com/andalisolutions/laravel-bnr/actions
-[link-styleci]: https://styleci.io/repos/253283210
-[link-scrutinizer]: https://scrutinizer-ci.com/g/andalisolutions/laravel-bnr
-[link-author]: https://github.com/andalisolutions
-[link-contributors]: ../../contributors
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
