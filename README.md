@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/andalisolutions/laravel-bnr.svg?style=flat-square)](https://packagist.org/packages/andalisolutions/laravel-bnr)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/andalisolutions/laravel-bnr/run-tests?label=tests)](https://github.com/andalisolutions/laravel-bnr/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/andalisolutions/laravel-bnr/Check%20&%20fix%20styling?label=code%20style)](https://github.com/andalisolutions/laravel-bnr/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/andalisolutions/laravel-bnr/Check%20&%20fix%20styling?label=code%20style)](https://github.com/andalisolutions/laravel-bnr/actions?query=workflow%3Alint+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/andalisolutions/laravel-bnr.svg?style=flat-square)](https://packagist.org/packages/andalisolutions/laravel-bnr)
 
 
