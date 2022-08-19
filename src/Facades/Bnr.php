@@ -5,7 +5,7 @@ namespace Andali\Bnr\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static string exchange(string $currency = 'EUR', $date = NULL)
+ * @see \Andali\Bnr\Bnr
  */
 class Bnr extends Facade
 {
@@ -16,6 +16,6 @@ class Bnr extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'bnr';
+        return \Andali\Bnr\Bnr::class;
     }
 }
